@@ -41,6 +41,14 @@
 # else:
 #     print("not leap")
 
-number = int(input())
-for i in range(1, 11):
-    print(f"{number} x {i} = {number * i}")
+# number = int(input())
+# for i in range(1, 11):
+#     print(f"{number} x {i} = {number * i}")
+
+sum = 0
+while True:
+    number = int(input())
+    if number == 0:
+        break
+    sum += number
+print(sum)
