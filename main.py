@@ -23,14 +23,20 @@
 # else:
 #     print("zero")
 
-number = int(input())
-if number >= 90:
-    print("A")
-elif number >= 80:
-    print("B")
-elif number >= 70:
-    print("C")
-elif number >= 60:
-    print("D")
+# number = int(input())
+# if number >= 90:
+#     print("A")
+# elif number >= 80:
+#     print("B")
+# elif number >= 70:
+#     print("C")
+# elif number >= 60:
+#     print("D")
+# else:
+#     print("F")
+
+year = int(input())
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print("leap")
 else:
-    print("F")
+    print("not leap")
