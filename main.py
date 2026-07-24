@@ -6,9 +6,11 @@
 # age = input()
 # print(f"Hi, {name}! You are {age} years old.")
 
-width = int(input())
-height = int(input())
-area = width * height
-print(area)
-perimeter = 2 * (width + height)
-print(perimeter)
+# width = int(input())
+# height = int(input())
+# area = width * height
+# print(area)
+# perimeter = 2 * (width + height)
+# print(perimeter)
+
+print(int(input()) + int(input()))
