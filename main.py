@@ -35,8 +35,12 @@
 # else:
 #     print("F")
 
-year = int(input())
-if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
-    print("leap")
-else:
-    print("not leap")
+# year = int(input())
+# if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+#     print("leap")
+# else:
+#     print("not leap")
+
+number = int(input())
+for i in range(1, 11):
+    print(f"{number} x {i} = {number * i}")
