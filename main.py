@@ -15,10 +15,22 @@
 
 # print(int(input()) + int(input()))
 
+# number = int(input())
+# if number > 0:
+#     print("positive")
+# elif number < 0:
+#     print("negative")
+# else:
+#     print("zero")
+
 number = int(input())
-if number > 0:
-    print("positive")
-elif number < 0:
-    print("negative")
+if number >= 90:
+    print("A")
+elif number >= 80:
+    print("B")
+elif number >= 70:
+    print("C")
+elif number >= 60:
+    print("D")
 else:
-    print("zero")
+    print("F")
