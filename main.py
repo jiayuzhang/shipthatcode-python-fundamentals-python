@@ -13,4 +13,12 @@
 # perimeter = 2 * (width + height)
 # print(perimeter)
 
-print(int(input()) + int(input()))
+# print(int(input()) + int(input()))
+
+number = int(input())
+if number > 0:
+    print("positive")
+elif number < 0:
+    print("negative")
+else:
+    print("zero")
