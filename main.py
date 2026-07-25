@@ -61,9 +61,22 @@
 # str = input()
 # print(str[::-1])
 
-str = input()
-count = 0
-for c in str.lower():
-    if c in {"a", "e", "i", "o", "u"}:
-        count += 1
-print(count)
+# str = input()
+# count = 0
+# for c in str.lower():
+#     if c in {"a", "e", "i", "o", "u"}:
+#         count += 1
+# print(count)
+
+# name = "Alice"
+# n = 10
+# print(f"{name:*<10}|")
+# print(f"{name:*<10}|")
+# print(f"{name=}")
+
+item = input()
+quantity = int(input())
+unit = float(input())
+print(f"Item: {item}")
+print(f"Quantity: {quantity}")
+print(f"Total: ${quantity * unit:.2f}")
