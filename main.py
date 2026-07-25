@@ -53,7 +53,10 @@
 #     sum += number
 # print(sum)
 
-number = int(input())
-for i in range(1, number + 1):
-    padding = " " * (number - i)
-    print(padding + "*" * i)
+# number = int(input())
+# for i in range(1, number + 1):
+#     padding = " " * (number - i)
+#     print(padding + "*" * i)
+
+str = input()
+print(str[::-1])
