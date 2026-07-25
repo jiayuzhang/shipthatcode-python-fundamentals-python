@@ -58,5 +58,12 @@
 #     padding = " " * (number - i)
 #     print(padding + "*" * i)
 
+# str = input()
+# print(str[::-1])
+
 str = input()
-print(str[::-1])
+count = 0
+for c in str.lower():
+    if c in {"a", "e", "i", "o", "u"}:
+        count += 1
+print(count)
